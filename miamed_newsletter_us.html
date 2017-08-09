@@ -1,0 +1,614 @@
+<meta charset="utf-8">
+<link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" type="text/css" /><meta name="viewport" content="width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<style type="text/css">body, #bodyTable {
+                height: 100% !important;
+                width: 100% !important;
+                margin: 0;
+                padding: 0;
+            }
+
+            body, table, td, th, p, a, li, blockquote {
+                -ms-text-size-adjust: 100%;
+                -webkit-text-size-adjust: 100%;
+            }
+
+            .thread-item.expanded .thread-body .body, .msg-body {
+                width: 100% !important;
+                display: block !important;
+            }
+
+            .ReadMsgBody, .ExternalClass {
+                width: 100%;
+                background-color: #f4f4f4;
+            }
+
+            .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass th, .ExternalClass div {
+                line-height: 100%;
+            }
+
+            table {
+                border-spacing: 0;
+            }
+
+            table, td, th {
+                border-collapse: collapse;
+                mso-table-lspace: 0pt;
+                mso-table-rspace: 0pt;
+            }
+
+            img {
+                -ms-interpolation-mode: bicubic;
+            }
+
+            img, a img {
+                border: 0;
+                outline: none;
+                text-decoration: none;
+            }
+
+            .yshortcuts a {
+                border-bottom: none !important;
+                text-decoration: none !important;
+            }
+
+            a {
+                color: #83cff0;
+                text-decoration: underline;
+            }
+
+            a[href^=tel], .mobile_link, .mobile_link a {
+                font-family: Lato, Helvetica Neue, Helvetica, sans-serif !important;
+                font-size: 10px !important;
+                line-height: 18px !important;
+                background: #ddd !important;
+                color: #4a90e2 !important;
+                text-decoration: none !important;
+            }
+
+            body {
+                margin: 0 !important;
+            }
+
+            div[style*="margin: 16px 0"] {
+                margin: 0 !important;
+            }
+
+            table th {
+                font-weight: normal !important;
+            }
+
+            .show-on-mobile {
+                display: none !important;
+            }
+
+            @media screen and (max-device-width: 660px), screen and (max-width: 660px) {
+                table[class="email-container"] {
+                    width: 100% !important;
+                }
+
+                table[class="fluid"] {
+                    width: 100% !important;
+                }
+
+                img[class="fluid"], img[class="force-col-center"] {
+                    width: 100% !important;
+                    max-width: 100% !important;
+                    height: auto !important;
+                }
+
+                img[class="force-col-center"] {
+                    margin: auto !important;
+                }
+
+                td[class="force-col"], td[class="force-col-center"] {
+                    display: block !important;
+                    width: 100% !important;
+                    clear: both;
+                }
+
+                td[class="force-col-center"] {
+                    text-align: center !important;
+                }
+
+                img[class="col-3-img-l"] {
+                    float: left;
+                    margin: 0 15px 15px 0;
+                }
+
+                img[class="col-3-img-r"] {
+                    float: right;
+                    margin: 0 0 15px 15px;
+                }
+
+                table[class="button"] {
+                    width: 100% !important;
+                }
+
+                th[class="hh-force-col"], th[class="hh-force-col-center"] {
+                    display: block !important;
+                    width: 100% !important;
+                    clear: both;
+                }
+
+                th[class="hh-force-col-center"] {
+                    text-align: center !important;
+                }
+
+                .sidepadding-on-mobile-none {
+                    padding-right: 0px !important;
+                    padding-left: 0px !important;
+                }
+            }
+
+            @media screen and (max-device-width: 520px), screen and (max-width: 520px) {
+                div[class="hh-visible"] {
+                    display: block !important;
+                }
+
+                div[class="hh-center"] {
+                    text-align: center;
+                    width: 100% !important;
+                }
+
+                div[class="footer-div"] {
+                    text-align: center !important;
+                    margin: auto !important;
+                    width: 100% !important;
+                }
+
+                table[class="hh-fluid"] {
+                    width: 100% !important;
+                }
+
+                img[class="hh-fluid"], img[class="hh-force-col-center"] {
+                    /*width: 100% !important;*/
+                    max-width: 100% !important;
+                    height: auto !important;
+                }
+
+                img[class="hh-force-col-center"] {
+                    margin: auto !important;
+                }
+
+                td[class="hh-force-col"], td[class="hh-force-col-center"] {
+                    display: block !important;
+                    width: 100% !important;
+                    clear: both;
+                }
+
+                td[class="hh-force-col-center"] {
+                    text-align: center !important;
+                }
+
+                th[class="hh-force-col"], th[class="hh-force-col-center"] {
+                    display: block !important;
+                    width: 100% !important;
+                    clear: both;
+                }
+
+                th[class="hh-force-col-center"] {
+                    text-align: center !important;
+                }
+
+                img[class="col-3-img-l"], img[class="col-3-img-r"] {
+                    float: none !important;
+                    margin: 15px auto !important;
+                    text-align: center !important;
+                }
+
+                div[class="button-container"] {
+                    text-align: center !important;
+                }
+
+                .remove-on-mobile {
+                    width: 0px;
+                    display: none !important;
+                }
+
+                .show-on-mobile {
+                    display: inline !important;
+                }
+
+                .padding-on-mobile-left {
+                    padding-left: 20px !important;
+                }
+
+                .padding-on-mobile-header {
+                    padding-left: 30px !important;
+                }
+
+                .padding-on-mobile-right {
+                    padding-right: 20px !important;
+                }
+
+                .sidepadding-on-mobile-none {
+                    padding-right: 0px !important;
+                    padding-left: 0px !important;
+                }
+            }
+</style>
+<table bgcolor="#f4f4f4" border="0" cellpadding="0" cellspacing="0" height="100%" id="bodyTable" style="border-collapse: collapse;table-layout: fixed;margin:0 auto;" width="100%">
+	<tbody>
+		<tr>
+			<td><!--[if gte mso 9]>
+                <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+                    <v:fill type="tile" color="#f4f4f4" src="assets/nice_snow.png">
+                </v:background><![endif]-->
+			<table align="center" bgcolor="#f4f4f4" border="0" cellpadding="0" cellspacing="0" class="email-container" style="margin: auto;">
+				<tbody>
+					<tr>
+						<td class="remove-on-mobile" style=" background: #f4f4f4;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<td>
+						<table align="center" bgcolor="#f4f4f4" border="0" cellpadding="0" cellspacing="0" class="email-container" style="margin: auto;" width="600">
+							<tbody>
+								<tr>
+									<td class="padding-on-mobile-header" style="padding: 5px 0 20px 0;text-align: left;" valign="middle">
+									<div style="display:none;font-size:1px;color:#f4f4f4;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Hallo Tobias, seit dieser Woche ist er in AMBOSS online: unser Sonokurs! Gemeinsam mit sehr erfahrenen&hellip;</div>
+									<a href="https://miamed.de" style="text-decoration: none; color: #4a90e2"><img alt="MIAMED - von Medizinern für Mediziner" src="https://images-cdn.miamed.de/images/culture/de_DE/mail/newsletter-assets/img_logo_amboss.png" /></a></td>
+								</tr>
+								<!-- TEMPLATE_BUILDER Start HeaderBlock #1#--><!-- Template: template_header_centered_picture -->
+								<tr style="border: 0px; padding: 0 0 0 0;">
+									<td style="border: 0px; padding: 0 0 0 0;"><a href="https://amboss.miamed.de/library#libraryTree=a30QSf&amp;fxid=XR09lf"><img alt="AMBOSS Sonokurs" class="fluid" src="https://s3-eu-west-1.amazonaws.com/blogmedia.miamed.de/wordpress/wp-content/uploads/2017/08/amboss-sonokurs-nl.jpg" style="display: block; border-width: 0px; border-style: solid; width: 600px; height: 350px;" /></a></td>
+								</tr>
+								<!-- TEMPLATE_BUILDER End HeaderBlock #1#--><!-- Start of email--><!-- TEMPLATE_BUILDER Start Block #1#--><!-- Template: template_block_greeting_button -->
+								<tr style="background: #ffffff ;">
+									<td>
+									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tbody>
+											<tr>
+												<td class="padding-on-mobile-left padding-on-mobile-right" style="padding: 30px 50px 0 50px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+color: #000000 ; font-family: Lato, Helvetica Neue, Helvetica, sans-serif; font-size: 16px; font-weight: 300; line-height: 21px;
+">
+												<p>Hallo Tobias,<br />
+												<br />
+												seit dieser Woche ist er in AMBOSS online: unser Sonokurs!<br />
+												<br />
+												Gemeinsam mit sehr erfahrenen Sonographeuren haben wir einen kompletten Kurs zu Abdomen, Schildr&uuml;se und FAST entwickelt. So ist eine fundierte und umfangreiche Anleitung f&uuml;rs Sonographieren entstanden.</p>
+
+												<p>Der Sonokurs setzt sich aus Untersuchungsvideos, Illustrationen, Details zu den Untersuchungsschritten, Bildbefunden und Quizbildern zusammen.</p>
+
+												<p>Alle Elemente sind in AMBOSS einzeln aufrufbar oder k&ouml;nnen strukturiert anhand unseres 6-Tage-Kursplans durchgearbeitet werden.</p>
+
+												<table border="0" cellpadding="0" cellspacing="0" class="mobile-button-container" width="100%">
+													<tbody>
+														<tr>
+															<td style="width:100%; padding: 25px 0 0 0;">
+															<table border="0" cellpadding="0" cellspacing="0" class="responsive-table" width="100%">
+																<tbody>
+																	<tr>
+																		<td width="100%">
+																		<div class="button-container" style="text-align: left;"><a class="mobile-button" href="https://amboss.miamed.de/library#libraryTree=a30QSf&amp;fxid=XR09lf" style="font-family: Lato, Helvetica Neue, Helvetica, sans-serif; font-size: 18px; font-weight: 500; color: #ffffff; line-height: 21px; text-decoration: none; background-color: #83cff0; border-top: 15px solid #83cff0; border-bottom: 15px solid #83cff0; border-left: 25px solid #83cff0; border-right: 25px solid #83cff0; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; display: inline-block; text-align: center" target="_blank">Sonokurs starten&nbsp;&nbsp;</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://www.miamed.de/amboss/sonokurs" target="_blank">Vorschau-Video zum Sonokurs</a>&nbsp;</div>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<!-- TEMPLATE_BUILDER End Block #1#--><!-- TEMPLATE_BUILDER Start Block #2#--><!-- Template: template_block_text_only -->
+								<tr style="background: #ffffff ;">
+									<td style="padding-top: 30px;">
+									<hr width="60%" /></td>
+								</tr>
+								<tr style="background: #ffffff ;">
+									<td>
+									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tbody>
+											<tr>
+												<td class="padding-on-mobile-left padding-on-mobile-right" style="padding: 30px 50px 0 50px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+color: #000000 ; font-family: Lato, Helvetica Neue, Helvetica, sans-serif; font-size: 16px; font-weight: 300; line-height: 21px;
+">
+												<p><u>Aktuell keinen aktiven AMBOSS-Account?</u></p>
+												<br />
+												Mit diesem Freischaltcode kannst du AMBOSS noch einmal 7 Tage kostenlos nutzen:&nbsp;<em><strong>AMBOSS-Sono1508 &nbsp;</strong></em><br />
+												(*einl&ouml;sbar bis 15.08.2017 unter <a href="https://amboss.miamed.de/account/accessChooser" target="_blank">Freischaltcode einl&ouml;sen</a>)</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<!-- TEMPLATE_BUILDER End Block #2#--><!-- TEMPLATE_BUILDER Start Block #3#--><!-- Template: template_block_picutre_left -->
+								<tr style="background: #ffffff ;">
+									<td style="padding-top: 30px;">
+									<hr width="60%" /></td>
+								</tr>
+								<tr style="background: #ffffff ;">
+									<td class="padding-on-mobile-left padding-on-mobile-right" style="padding: 0px 50px;">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" class="fluid" width="100%">
+										<tbody>
+											<tr>
+												<th class="hh-force-col-center" style="padding: 30px 0 0 0;font-weight:normal;" valign="top"><img alt="Untersuchungsvideos" class="hh-force-col-center" src="https://s3-eu-west-1.amazonaws.com/blogmedia.miamed.de/wordpress/wp-content/uploads/2017/08/video-beispiel-sonokurs.png" style="display: block; margin: auto; border-width: 0px; border-style: solid; width: 200px; height: 138px;" /></th>
+												<th class="hh-force-col" style="padding: 30px 0 0 0;font-weight:normal;" valign="top" width="100%">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%">
+													<tbody>
+														<tr>
+															<td class="sidepadding-on-mobile-none" style="width:100%; padding-left: 50px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+color: #000000 ; font-family: Lato, Helvetica Neue, Helvetica, sans-serif; font-size: 16px; font-weight: 300; line-height: 21px;
+ text-align: left;">
+															<div class="hh-center" style="font-family:Lato, Helvetica Neue, Helvetica, sans-serif; font-size: 27px; font-weight: 300; line-height: 31px;">Untersuchungsvideos</div>
+															<br />
+															Unz&auml;hlige Untersuchungsschnitte werden aus 2 Kameraperspektiven gezeigt und durch Illustrationen und Overlays veranschaulicht .</td>
+														</tr>
+													</tbody>
+												</table>
+												</th>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<!-- TEMPLATE_BUILDER End Block #3#--><!-- TEMPLATE_BUILDER Start Block #4#--><!-- Template: template_block_picutre_left -->
+								<tr style="background: #ffffff ;">
+									<td style="padding-top: 30px;">
+									<hr width="60%" /></td>
+								</tr>
+								<tr style="background: #ffffff ;">
+									<td class="padding-on-mobile-left padding-on-mobile-right" style="padding: 0px 50px;">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" class="fluid" width="100%">
+										<tbody>
+											<tr>
+												<th class="hh-force-col-center" style="padding: 30px 0 0 0;font-weight:normal;" valign="top"><img alt="Erklärungen" class="hh-force-col-center" src="https://s3-eu-west-1.amazonaws.com/blogmedia.miamed.de/wordpress/wp-content/uploads/2017/08/kapitel-beispiel-sonokurs.png" style="display: block; margin: auto; border-width: 0px; border-style: solid; width: 200px; height: 200px;" /></th>
+												<th class="hh-force-col" style="padding: 30px 0 0 0;font-weight:normal;" valign="top" width="100%">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%">
+													<tbody>
+														<tr>
+															<td class="sidepadding-on-mobile-none" style="width:100%; padding-left: 50px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+color: #000000 ; font-family: Lato, Helvetica Neue, Helvetica, sans-serif; font-size: 16px; font-weight: 300; line-height: 21px;
+ text-align: left;">
+															<div class="hh-center" style="font-family:Lato, Helvetica Neue, Helvetica, sans-serif; font-size: 27px; font-weight: 300; line-height: 31px;">Detaillierte Erkl&auml;rungen</div>
+															<br />
+															Ganze Kapitel mit ausf&uuml;hrlichen Beschreibungen zu allen Untersuchungsschritten. Mit vielen pathologischen Bildbefunden und anatomischen Illustrationen.</td>
+														</tr>
+													</tbody>
+												</table>
+												</th>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<!-- TEMPLATE_BUILDER End Block #4#--><!-- TEMPLATE_BUILDER Start Block #5#--><!-- Template: template_block_picutre_left -->
+								<tr style="background: #ffffff ;">
+									<td style="padding-top: 30px;">
+									<hr width="60%" /></td>
+								</tr>
+								<tr style="background: #ffffff ;">
+									<td class="padding-on-mobile-left padding-on-mobile-right" style="padding: 0px 50px;">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" class="fluid" width="100%">
+										<tbody>
+											<tr>
+												<th class="hh-force-col-center" style="padding: 30px 0 0 0;font-weight:normal;" valign="top"><img alt="Quiz" class="hh-force-col-center" src="https://s3-eu-west-1.amazonaws.com/blogmedia.miamed.de/wordpress/wp-content/uploads/2017/08/quiz-organbasierte-sonographie.png" style="display: block; margin: auto; border-width: 0px; border-style: solid; width: 200px; height: 200px;" /></th>
+												<th class="hh-force-col" style="padding: 30px 0 0 0;font-weight:normal;" valign="top" width="100%">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%">
+													<tbody>
+														<tr>
+															<td class="sidepadding-on-mobile-none" style="width:100%; padding-left: 50px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+color: #000000 ; font-family: Lato, Helvetica Neue, Helvetica, sans-serif; font-size: 16px; font-weight: 300; line-height: 21px;
+ text-align: left;">
+															<div class="hh-center" style="font-family:Lato, Helvetica Neue, Helvetica, sans-serif; font-size: 27px; font-weight: 300; line-height: 31px;">Quiz mit interaktiven Bildern</div>
+															<br />
+															Mit dem Quiz in jedem Kapitel lassen sich alle Schnitte trainieren und der Blick f&uuml;r Strukturen richtig schulen.</td>
+														</tr>
+													</tbody>
+												</table>
+												</th>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<!-- TEMPLATE_BUILDER End Block #5#--><!-- TEMPLATE_BUILDER Start Block #6#--><!-- Template: template_block_text_only -->
+								<tr style="background: #ffffff ;">
+									<td style="padding-top: 30px;">
+									<hr width="60%" /></td>
+								</tr>
+								<!-- TEMPLATE_BUILDER End Block #6#--><!-- TEMPLATE_BUILDER Start Block #7#--><!-- Template: template_block_picutre_left --><!-- TEMPLATE_BUILDER End Block #7#--><!-- TEMPLATE_BUILDER Start Block #8#--><!-- Template: template_block_greeting --><!-- TEMPLATE_BUILDER End Block #8#--><!-- TEMPLATE_BUILDER Start Block #9#--><!-- Template: template_block_text_only -->
+								<tr style="background: #ffffff ;">
+									<td>
+									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tbody>
+											<tr>
+												<td class="padding-on-mobile-left padding-on-mobile-right" style="padding: 30px 50px 0 50px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+color: #000000 ; font-family: Lato, Helvetica Neue, Helvetica, sans-serif; font-size: 16px; font-weight: 300; line-height: 21px;
+">
+												<p>Die Sonokurs-Inhalte sind besonders n&uuml;tzlich, wenn man sein Wissen auffrischen m&ouml;chte&nbsp;oder auch zur Vor- und Nachbereitung von sonographischen Pr&auml;senzveranstaltungen.</p>
+
+												<table border="0" cellpadding="0" cellspacing="0" class="mobile-button-container" width="100%">
+													<tbody>
+														<tr>
+															<td style="width:100%; padding: 25px 0 0 0;">
+															<table border="0" cellpadding="0" cellspacing="0" class="responsive-table" width="100%">
+																<tbody>
+																	<tr>
+																		<td width="100%">
+																		<div class="button-container" style="text-align: left;"><a class="mobile-button" href="https://amboss.miamed.de/library#libraryTree=a30QSf&amp;fxid=XR09lf" style="font-family: Lato, Helvetica Neue, Helvetica, sans-serif; font-size: 18px; font-weight: 500; color: #ffffff; line-height: 21px; text-decoration: none; background-color: #83cff0; border-top: 15px solid #83cff0; border-bottom: 15px solid #83cff0; border-left: 25px solid #83cff0; border-right: 25px solid #83cff0; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; display: inline-block; text-align: center" target="_blank">Sonokurs in AMBOSS starten</a></div>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<p><a href="https://www.miamed.de/amboss/sonokurs" target="_blank">Mehr Informationen und Sonokurs-Vorschau</a></p>
+
+												<p>&nbsp;</p>
+
+												<p>Viele Gr&uuml;&szlig;e<br />
+												aus der AMBOSS-Redaktion!</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<!-- TEMPLATE_BUILDER End Block #9#-->
+								<tr style="background: #ffffff ;">
+									<td><br />
+									&nbsp;</td>
+								</tr>
+								<tr style="background: #ddd;">
+									<td style="padding: 0 50px;">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" class="fluid" width="100%">
+										<tbody>
+											<tr>
+												<th style="padding: 20px 30px 0 0; font-weight:normal;" valign="top"><a href="https://miamed.de" style="text-decoration: none; color: #4a90e2"><img alt="MIAMED - von Medizinern für Mediziner" border="0" src="https://images-cdn.miamed.de/images/culture/de_DE/mail/newsletter-assets/img_logo_miamed.png" style="display: block;margin: auto;" width="107px" /></a></th>
+												<th style="padding: 20px 0 0 0; font-weight:normal;" valign="top" width="100%">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%">
+													<tbody>
+														<tr>
+															<td style="width:100%; font-family: Lato, Helvetica Neue, Helvetica, sans-serif; font-size: 10px; line-height: 18px; color: #444; text-align: left;">
+															<div style="text-align: right;"><a href="https://www.facebook.com/miamed.de" style="text-decoration: none; color: #4a90e2"><img alt="Facebook" src="https://images-cdn.miamed.de/images/culture/de_DE/mail/newsletter-assets/img_social_facebook.png" width="29px" /> </a> <a href="https://www.youtube.com/channel/UCTWK3_vkUiWq3VnU2n5hpPA" style="text-decoration: none; color: #4a90e2"> <img alt="Youtube" src="https://images-cdn.miamed.de/images/culture/de_DE/mail/newsletter-assets/img_social_youtube.png" width="29px" /> </a></div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</th>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td style="text-align: left; padding: 15px 50px 30px 50px;font-weight: 400;font-family: Lato, Helvetica Neue, Helvetica, sans-serif; font-size: 10px; line-height: 18px;background: #ddd;color: #888;">
+									<div><span>www.miamed.de&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="mailto:support@miamed.de" style="text-decoration: none; color: #4a90e2;">support@miamed.de</a> <span class="remove-on-mobile">&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="tel:+4930577022111" style="text-decoration: none; color: #4a90e2;">Tel:&nbsp;030&nbsp;/&nbsp;5770&nbsp;221‑11</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://www.facebook.com/miamed.de" style="text-decoration: none; color: #4a90e2">MIAMED&nbsp;bei&nbsp;Facebook</a></span> <span class="show-on-mobile" style="display:none;">&nbsp;<br />
+									<a href="tel:+4930577022111" style="text-decoration: none; color: #4a90e2">Tel:&nbsp;030&nbsp;/&nbsp;5770&nbsp;221‑11</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; <a href="https://www.facebook.com/miamed.de" style="text-decoration: none; color: #4a90e2">MIAMED&nbsp;bei&nbsp;Facebook</a></span></span></div>
+
+									<div style="padding: 10px 0 0 0;"><span style="color: #888;">MIAMED GmbH, Sachsenring 73, 50677 K&ouml;ln. Eingetragen am Amtsgericht K&ouml;ln HRB 33282.<br />
+									Gesch&auml;ftsf&uuml;hrer: Dr. med. Madjid Salimi, Dr. med. Nawid Salimi, Benedikt Hochkirchen. &nbsp; &nbsp;</span></div>
+
+									<div style="padding: 10px 0 0 0; "><span style="color: #888;">Wenn du von Miamed zukünftig keine E-Mails erhalten möchtest, dann kannst du <a href="tak@miamed.de" style="font-family: sans-serif; font-size: 10px; line-height: 18px;background: #ddd;color: #888; text-decoration: none;">tak@miamed.de</a><a  style="text-decoration: none; color: #4A90E2" href="https://amboss.miamed.de/unsubscribe/IUAxCicE8FX0GSa" target="_blank"> hier abmelden</a>.</span></div>
+
+									<hr style="background-color: #989898; height: 1px; border: 0;" />
+									<div class="hh-center" style="padding: 10px 0 0 0; text-align:center; width: 500px;height: 16px;color: #888; font-family: Lato, Helvetica Neue, Helvetica, sans-serif;font-size: 16px;font-weight: 500;line-height: 16px;">Download our Apps</div>
+									</td>
+								</tr>
+								<tr style="background: #ddd; ;">
+									<td class="padding-on-mobile-left padding-on-mobile-right" style="padding: 0px 50px;">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" class="fluid" width="100%">
+										<tbody>
+											<tr>
+												<th class="hh-force-col-center" style="padding: 0 0 30px 0;font-weight:normal;" valign="top"><a href="https://itunes.apple.com/de/developer/miamed-gmbh/id918156225" style="text-decoration: none; color: #4a90e2"><img alt="AMBOSS iOS App" border="0" class="hh-force-col-center" height="50" src="https://images-cdn.miamed.de/images/culture/de_DE/mail/newsletter-assets/img_badge_appstore.png" style="display: block;margin: auto;" width="140" /></a></th>
+												<th class="hh-force-col-center" style="padding: 0 0 30px 0;font-weight:normal;" valign="top"><a href="https://play.google.com/store/apps/developer?id=MIAMED+GmbH" style="text-decoration: none; color: #4a90e2"><img alt="AMBOSS Android App" border="0" class="hh-force-col-center" height="50" src="https://images-cdn.miamed.de/images/culture/de_DE/mail/newsletter-assets/img_badge_playstore.png" style="display: block;margin: auto;" width="140" /></a></th>
+												<th class="hh-force-col-center" style="padding: 0 0 30px 0;font-weight:normal;" valign="top"><a href="https://www.amazon.de/s?ie=UTF8&amp;field-keywords=MIAMED&amp;index=mobile-apps&amp;search-type=ss&amp;tag=miamed-21" style="text-decoration: none; color: #4a90e2"><img alt="AMBOSS Kindle App" border="0" class="hh-force-col-center" height="50" src="https://images-cdn.miamed.de/images/culture/de_DE/mail/newsletter-assets/img_badge_amazon.png" style="display: block;margin: auto;" width="140" /></a></th>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- End of Mail --></td>
+						<td class="remove-on-mobile" style="background: #f4f4f4;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
